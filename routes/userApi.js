@@ -8,5 +8,4 @@ router.group('/users', (router) => {
     router.post('/store', userController.store);
 });
 
-
 module.exports = router;
